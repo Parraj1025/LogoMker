@@ -1,0 +1,21 @@
+{
+  "dependencies": {
+    "fs": "^0.0.1-security",
+    "inquirer": "^8.2.6",
+    "jest": "^29.7.0",
+    "path": "^0.12.7"
+  },
+  "name": "logomkaer",
+  "version": "1.0.0",
+  "description": "make a logo",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "Juan Parra",
+  "license": "ISC"
+}
