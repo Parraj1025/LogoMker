@@ -18,5 +18,16 @@
     "start": "node index.js"
   },
   "author": "Juan Parra",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/github.com/Parraj1025.git"
+  },
+  "keywords": [
+    "Logo"
+  ],
+  "bugs": {
+    "url": "https://github.com/github.com/Parraj1025/issues"
+  },
+  "homepage": "https://github.com/github.com/Parraj1025#readme"
 }
