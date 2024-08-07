@@ -1,7 +1,11 @@
+//importing required modules
+
 const inquirer = require('inquirer');
 const path = require('path')
 const fs = require('fs');
 
+//function created to createSVG file given required data
+        //need to create a function to doWork of currently repeated code
 async function createSVG(fileName, answers) {
     
     let svgData = ''
@@ -39,6 +43,9 @@ async function createSVG(fileName, answers) {
     return svgData
 }
 
+
+//use of inquirer to gather user input required to create SVG
+
 async function collectData() {
    await inquirer.prompt([
         {
@@ -67,5 +74,7 @@ async function collectData() {
         return createSVG(answers.text, answers)
     })
 }
+
+//export of functions
 
 module.exports = {collectData,createSVG}
